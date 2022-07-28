@@ -1,0 +1,236 @@
+﻿ID;Title;Created By;Created On;Estimate;Forecast;Priority;References;Section;Section Depth;Section Description;Section Hierarchy;Steps;Steps;Steps (Additional Info);Steps (Expected Result);Steps (References);Steps (Shared step ID);Steps (Step);Suite;Suite ID;Template;Type;Updated By;Updated On
+C3;Checking the registration functionality with valid data;Olha Klochak;7/27/2022 12:03 PM;;;Medium;;Positsve;1;;Reistration > Positsve;"1. Click the ""Sign in"" button.
+Expected Result:
+The ""AUTHENTICATION"" page is opened. The ""CREATE &nbsp;AN ACCOUNT"" form is shown.&nbsp;![](index.php?/attachments/get/725bd54d-a5dd-434c-9446-9b7c67558def) 
+2. Enter into the ""Email address"" field a valid email address (olga.klochak@gmail.com).
+Expected Result:
+The email is displayed in the ""Email address"" field. The field is highlighted in green color. ![](index.php?/attachments/get/c934b89c-6f5f-4ae9-9e02-399ef0702519) 
+3. Click the ""Create an account"" button.
+Expected Result:
+The ""AUTHENTICATION"" page is opened. The ""CREATE AN ACCOUNT"" form is shown. The ""YOUR PERSONAL INFORMATION"" form is shown.![](index.php?/attachments/get/aab1d2bf-dd4d-49af-8e46-b8e201d49c6a)  
+
+
+4. Fill in all required fields into the ""YOUR PERSONAL INFORMATION"" form valid data. 
+Expected Result:
+All fields the ""YOUR PERSONAL INFORMATION"" form higlighted in green color. The green checkmark is shown. All required field show valid data, exept ""password"" field. The password is shown in the ""password field"" like dots. ![](index.php?/attachments/get/83336d8f-b792-476b-b149-386602e39a88)![](index.php?/attachments/get/1422b6e8-4224-4649-a188-08f505c338fb)&nbsp; 
+5. Click the ""Regisre"" button.
+Expected Result:
+The ""MY ACCOUNT"" users page is opened. ![](index.php?/attachments/get/9544a252-91c4-45ca-97e8-9187ac8b1e8b)&nbsp;";;"1. 
+2. 
+3. 
+4. 
+5.";"1. The ""AUTHENTICATION"" page is opened. The ""CREATE &nbsp;AN ACCOUNT"" form is shown.&nbsp;![](index.php?/attachments/get/725bd54d-a5dd-434c-9446-9b7c67558def) 
+2. The email is displayed in the ""Email address"" field. The field is highlighted in green color. ![](index.php?/attachments/get/c934b89c-6f5f-4ae9-9e02-399ef0702519) 
+3. The ""AUTHENTICATION"" page is opened. The ""CREATE AN ACCOUNT"" form is shown. The ""YOUR PERSONAL INFORMATION"" form is shown.![](index.php?/attachments/get/aab1d2bf-dd4d-49af-8e46-b8e201d49c6a)  
+
+
+4. All fields the ""YOUR PERSONAL INFORMATION"" form higlighted in green color. The green checkmark is shown. All required field show valid data, exept ""password"" field. The password is shown in the ""password field"" like dots. ![](index.php?/attachments/get/83336d8f-b792-476b-b149-386602e39a88)![](index.php?/attachments/get/1422b6e8-4224-4649-a188-08f505c338fb)&nbsp; 
+5. The ""MY ACCOUNT"" users page is opened. ![](index.php?/attachments/get/9544a252-91c4-45ca-97e8-9187ac8b1e8b)&nbsp;";"1. 
+2. 
+3. 
+4. 
+5.";"1. 
+2. 
+3. 
+4. 
+5.";"1. Click the ""Sign in"" button.
+2. Enter into the ""Email address"" field a valid email address (olga.klochak@gmail.com).
+3. Click the ""Create an account"" button.
+4. Fill in all required fields into the ""YOUR PERSONAL INFORMATION"" form valid data. 
+5. Click the ""Regisre"" button.";Master;S1;Test Case (Steps);Performance;Olha Klochak;7/27/2022 2:24 PM
+C4;Checking the registration functionality with invalid data;Olha Klochak;7/27/2022 1:25 PM;;;Medium;;Negative;1;;Reistration > Negative;"1. Click the ""Sign in"" button.![](index.php?/attachments/get/37d2e175-a88e-4fde-842b-838a7ad4df3b) 
+Expected Result:
+The ""AUTHENTICATION"" page is opened. The ""CREATE AN ACCOUNT"" form is shown.![](index.php?/attachments/get/814faa45-54c5-4d25-aaf9-f997f1fef3a5) 
+2. Enter into the ""Email address"" field the registered users email address (olga.klochak@gmai.com)
+Expected Result:
+The email is displayed in the ""Email address"" field. The field is higlighed in green color.![](index.php?/attachments/get/7f87a2af-0da3-4e87-85a2-821b6ab0cb89) 
+3. Click the ""CREATE ACCOUNT"" button.
+Expected Result:
+The ""CREATE AN ACCOUNT"" form wasn't open. Appeared the message ""An account using this email address has already been registered. Please enter a valid password or request a new one.""![](index.php?/attachments/get/2443bb27-5a0a-4720-ba22-b42f5c0ae2cf) 
+4. Enter into the ""Email address"" field the valid email address (klochaka@mail.ru)
+Expected Result:
+The email is displayed in the ""Email address"" field. The green checkmark is shown. The field is higlighed in green color.![](index.php?/attachments/get/ca3258a9-1b54-43f6-a1d8-619f4e29f59d) 
+5. Click the ""CREATE ACCOUNT"" button.
+Expected Result:
+The ""CREATE AN ACCOUNT"" form is shown"". Appeares the ""YOUR PERSONAL INFORMATION"" form.![](index.php?/attachments/get/1e91964c-8675-46f3-b4d4-ffd8db02acd2) 
+6. Fill in the ""First name"" field invalid name ""-"" at the ""YOUR PERSONAL INFORMATION"" form.
+Expected Result:
+The invalid name ""-"" is shown in the ""First name"" field. The field is highlighted in red color. Appeared the message ""Please enter a valid first name""![](index.php?/attachments/get/db00c63f-1e2d-4a27-8019-577e3ba4f137) 
+7. Fill in the ""Address"" field invalid address ""-"" at the ""YOUR PERSONAL INFORMATION"" form.
+Expected Result:
+The invalid address ""-"" is shown in the ""Address"" field. The field is highlighted in red color. Appeared the message ""Please enter a valid address""![](index.php?/attachments/get/65b68f50-cefd-43f2-9719-2356e2405ce5) 
+8. Fill in the ""City"" field invalid city ""-"" at the ""YOUR PERSONAL INFORMATION"" form.
+Expected Result:
+The invalid city ""-"" is shown in the ""City"" field. The field is highlighted in red color. Appeared the message ""Please enter a vali d city""![](index.php?/attachments/get/ac3eaf86-9ba0-429d-895c-a6758a4f068f) 
+9. Fill in all other fields into the ""YOUR PERSONAL INFORMATION"" form for valid data.
+Expected Result:
+All fields in the ""YOUR PERSONAL INFORMATION"" form are highlighted in green color. The green checkmark is shown. The password is shown in the ""Password"" field like dots. All other required fields show valid data.![](index.php?/attachments/get/d04963b5-1009-458f-a4ec-1202f3434bd4) 
+10. Click the ""Register"" button.
+Expected Result:
+The ""YOUR PERSONAL INFORMATION"" form is shown"". All fields with invalid data are highlighted in red color. The message ""Please enter valid data"" appeared under every field with invalid data.![](index.php?/attachments/get/d51fd93e-381d-4f81-921b-f8231b1b7303)";;"1. 
+2. 
+3. 
+4. 
+5. 
+6. 
+7. 
+8. 
+9. 
+10.";"1. The ""AUTHENTICATION"" page is opened. The ""CREATE AN ACCOUNT"" form is shown.![](index.php?/attachments/get/814faa45-54c5-4d25-aaf9-f997f1fef3a5) 
+2. The email is displayed in the ""Email address"" field. The field is higlighed in green color.![](index.php?/attachments/get/7f87a2af-0da3-4e87-85a2-821b6ab0cb89) 
+3. The ""CREATE AN ACCOUNT"" form wasn't open. Appeared the message ""An account using this email address has already been registered. Please enter a valid password or request a new one.""![](index.php?/attachments/get/2443bb27-5a0a-4720-ba22-b42f5c0ae2cf) 
+4. The email is displayed in the ""Email address"" field. The green checkmark is shown. The field is higlighed in green color.![](index.php?/attachments/get/ca3258a9-1b54-43f6-a1d8-619f4e29f59d) 
+5. The ""CREATE AN ACCOUNT"" form is shown"". Appeares the ""YOUR PERSONAL INFORMATION"" form.![](index.php?/attachments/get/1e91964c-8675-46f3-b4d4-ffd8db02acd2) 
+6. The invalid name ""-"" is shown in the ""First name"" field. The field is highlighted in red color. Appeared the message ""Please enter a valid first name""![](index.php?/attachments/get/db00c63f-1e2d-4a27-8019-577e3ba4f137) 
+7. The invalid address ""-"" is shown in the ""Address"" field. The field is highlighted in red color. Appeared the message ""Please enter a valid address""![](index.php?/attachments/get/65b68f50-cefd-43f2-9719-2356e2405ce5) 
+8. The invalid city ""-"" is shown in the ""City"" field. The field is highlighted in red color. Appeared the message ""Please enter a vali d city""![](index.php?/attachments/get/ac3eaf86-9ba0-429d-895c-a6758a4f068f) 
+9. All fields in the ""YOUR PERSONAL INFORMATION"" form are highlighted in green color. The green checkmark is shown. The password is shown in the ""Password"" field like dots. All other required fields show valid data.![](index.php?/attachments/get/d04963b5-1009-458f-a4ec-1202f3434bd4) 
+10. The ""YOUR PERSONAL INFORMATION"" form is shown"". All fields with invalid data are highlighted in red color. The message ""Please enter valid data"" appeared under every field with invalid data.![](index.php?/attachments/get/d51fd93e-381d-4f81-921b-f8231b1b7303)";"1. 
+2. 
+3. 
+4. 
+5. 
+6. 
+7. 
+8. 
+9. 
+10.";"1. 
+2. 
+3. 
+4. 
+5. 
+6. 
+7. 
+8. 
+9. 
+10.";"1. Click the ""Sign in"" button.![](index.php?/attachments/get/37d2e175-a88e-4fde-842b-838a7ad4df3b) 
+2. Enter into the ""Email address"" field the registered users email address (olga.klochak@gmai.com)
+3. Click the ""CREATE ACCOUNT"" button.
+4. Enter into the ""Email address"" field the valid email address (klochaka@mail.ru)
+5. Click the ""CREATE ACCOUNT"" button.
+6. Fill in the ""First name"" field invalid name ""-"" at the ""YOUR PERSONAL INFORMATION"" form.
+7. Fill in the ""Address"" field invalid address ""-"" at the ""YOUR PERSONAL INFORMATION"" form.
+8. Fill in the ""City"" field invalid city ""-"" at the ""YOUR PERSONAL INFORMATION"" form.
+9. Fill in all other fields into the ""YOUR PERSONAL INFORMATION"" form for valid data.
+10. Click the ""Register"" button.";Master;S1;Test Case (Steps);Functional;Olha Klochak;7/27/2022 1:25 PM
+C1;Checking the login functionality with valid data;Olha Klochak;7/26/2022 2:39 PM;;;Medium;;Positive;1;;Login > Positive;"1. Click the ""Sign in"" button.
+Expected Result:
+The ""AUTHENTICATION"" page is opened. The ""ALREADY REGISTERED?"" form is shown.![](index.php?/attachments/get/aaec6a42-94e4-454f-8a40-d0e53c5f8de6)&nbsp; 
+2. Enter into the ""Email address"" field a valid email address (olga.klochak@gmail.com).
+Expected Result:
+The email is displayed in the ""Email address"" field. The green checkmark is shown. The field is higlighted in green color.&nbsp; 
+3. Enter into the ""Password"" field a valid password (11111111).
+Expected Result:
+The password is shown in the ""Password"" field like dots.
+4. Click the ""Sign in"" button
+Expected Result:
+The ""Account page"" is opened. The user is logged in.![](index.php?/attachments/get/9e4b8ced-657a-4d25-8721-c58136d73f15)&nbsp;";;"1. 
+2. 
+3. 
+4.";"1. The ""AUTHENTICATION"" page is opened. The ""ALREADY REGISTERED?"" form is shown.![](index.php?/attachments/get/aaec6a42-94e4-454f-8a40-d0e53c5f8de6)&nbsp; 
+2. The email is displayed in the ""Email address"" field. The green checkmark is shown. The field is higlighted in green color.&nbsp; 
+3. The password is shown in the ""Password"" field like dots.
+4. The ""Account page"" is opened. The user is logged in.![](index.php?/attachments/get/9e4b8ced-657a-4d25-8721-c58136d73f15)&nbsp;";"1. 
+2. 
+3. 
+4.";"1. 
+2. 
+3. 
+4.";"1. Click the ""Sign in"" button.
+2. Enter into the ""Email address"" field a valid email address (olga.klochak@gmail.com).
+3. Enter into the ""Password"" field a valid password (11111111).
+4. Click the ""Sign in"" button";Master;S1;Test Case (Steps);Functional;Olha Klochak;7/26/2022 2:50 PM
+C2;Checking the login functionality with invalid data;Olha Klochak;7/27/2022 7:33 AM;;;Medium;;Negative;1;;Login > Negative;"1. Click the ""Sign in"" button.
+Expected Result:
+The ""AUTHENTICATION"" page is opened. The ""ALREADY REGISTERED?"" form is shown.![](index.php?/attachments/get/9e79efe9-b10b-4b4c-9ccf-5342b0b8d4e2) 
+2. Enter into the ""Email address"" field the invalid email address (olga.klochak@@gmail.com).
+Expected Result:
+The invalid email is displayed in the ""Email address"" field. The red dagger is shown.![](index.php?/attachments/get/bd8b80f0-6be2-4bd6-bd82-da4d99e3bc62) 
+3. Enter into the ""Password"" field the invalid password (22222).
+Expected Result:
+The password is shown in the ""Password"" field like dots.![](index.php?/attachments/get/bcff6391-5fbb-4e49-874e-85cb3fdad7c4) 
+4. Click the ""Sign in"" button.
+Expected Result:
+The ""There is 1 error Authentication failed"" messege is shown.![](index.php?/attachments/get/970fc725-9e93-4da2-bd78-67e7107c0363)";;"1. 
+2. 
+3. 
+4.";"1. The ""AUTHENTICATION"" page is opened. The ""ALREADY REGISTERED?"" form is shown.![](index.php?/attachments/get/9e79efe9-b10b-4b4c-9ccf-5342b0b8d4e2) 
+2. The invalid email is displayed in the ""Email address"" field. The red dagger is shown.![](index.php?/attachments/get/bd8b80f0-6be2-4bd6-bd82-da4d99e3bc62) 
+3. The password is shown in the ""Password"" field like dots.![](index.php?/attachments/get/bcff6391-5fbb-4e49-874e-85cb3fdad7c4) 
+4. The ""There is 1 error Authentication failed"" messege is shown.![](index.php?/attachments/get/970fc725-9e93-4da2-bd78-67e7107c0363)";"1. 
+2. 
+3. 
+4.";"1. 
+2. 
+3. 
+4.";"1. Click the ""Sign in"" button.
+2. Enter into the ""Email address"" field the invalid email address (olga.klochak@@gmail.com).
+3. Enter into the ""Password"" field the invalid password (22222).
+4. Click the ""Sign in"" button.";Master;S1;Test Case (Steps);Functional;Olha Klochak;7/27/2022 7:33 AM
+C5;Checking the adding to the basket functionality;Olha Klochak;7/28/2022 7:03 AM;;;Medium;;Add to basket;0;;Add to basket;"1. Click on the inset ""WOMEN"".
+Expected Result:
+The page ""WOMEN"" is opened. The menu ""WOMEN"" with categories ""TOPS"" and ""DRESSES"" are shown.![](index.php?/attachments/get/d132e838-f16e-4cf1-ab95-fd1a8c5e20d6)&nbsp;
+2. Click on the category ""DRESSES"" at the menu ""WOMEN"".
+Expected Result:
+The page ""DRESSES"" is opened. The menu ""DRESSES"" with insets ""Casual dresses"", ""Evening dresses"" and ""Summer dresses"" are shown.![](index.php?/attachments/get/014cc4d2-1fa1-40dd-bf6f-d58d3ea3b35a)&nbsp; 
+3. Click onto the ""Summer dresses"" inset
+Expected Result:
+The page ""Summer dresses"" is opened, and a list of summer dresses is shown. The ""CATALOG"" with sorting is shown.![](index.php?/attachments/get/a1dfe3e0-ef07-4548-90bb-14bd1e39ad68)&nbsp; 
+4. Click onto the photo with ""Printed dress"" on the page ""Summer dresses"".![](index.php?/attachments/get/ea4b8fcc-4491-472d-bc40-aebff72ad288) 
+Expected Result:
+The page ""Printed dress"" is opened. The photo with the dress is shown.![](index.php?/attachments/get/617c6388-6b6f-4bb1-aaa8-e79ea1c77dc6) 
+5. Click on the plus sign near the ""Quantity"" field on the page ""Printed dress"".
+Expected Result:
+The number 2 is shown in the ""Quantity"" field on the page ""Printed dress""![](index.php?/attachments/get/977122ad-fa2d-405b-8f0e-8389754aee0a) 
+6. Click on the pull-down menu at the ""Size"" field.![](index.php?/attachments/get/67b816fa-2eea-4665-873a-557c059ad159) 
+Expected Result:
+The list of the sizes in the pull-down menu at the ""Size"" field is shown.
+7. Choose the size ""L"" in the pull-down menu at the ""Size"" field
+Expected Result:
+The size ""L"" is shown in the pull-down menu at the ""Size"" field.![](index.php?/attachments/get/e4e94e13-518f-4195-bd8b-496d56914b68) 
+8. Click on the ""Add to card"" button in the page ""Printed dress""
+Expected Result:
+The popup window is shown on the ""Printed dress"" page. ""Product successfully added to your shopping cart"" message is shown in the popup window. There are shown information about purchase: ""Orange, L, Quantity 2, Total $52.00, Total products $52.00, Total shipping  $2.00, Total $54.00"". ![](index.php?/attachments/get/613d7bcd-2fae-4122-a67c-6b87ee0691b1) 
+9. Click on the ""Proceed to checkout"" button on the popup window on the ""Printed dress"" page.![](index.php?/attachments/get/69a28e8e-2510-4ba6-a233-c2cc7d1c5a75) 
+Expected Result:
+The "" Your shopping cart"" page is opened. ""SHOPPING-CART SUMMARY"" is shown with the chosen dresses.![](index.php?/attachments/get/d94af69a-f3e5-448f-abe5-dce6b2a57811)";;"1. 
+2. 
+3. 
+4. 
+5. 
+6. 
+7. 
+8. 
+9.";"1. The page ""WOMEN"" is opened. The menu ""WOMEN"" with categories ""TOPS"" and ""DRESSES"" are shown.![](index.php?/attachments/get/d132e838-f16e-4cf1-ab95-fd1a8c5e20d6)&nbsp;
+2. The page ""DRESSES"" is opened. The menu ""DRESSES"" with insets ""Casual dresses"", ""Evening dresses"" and ""Summer dresses"" are shown.![](index.php?/attachments/get/014cc4d2-1fa1-40dd-bf6f-d58d3ea3b35a)&nbsp; 
+3. The page ""Summer dresses"" is opened, and a list of summer dresses is shown. The ""CATALOG"" with sorting is shown.![](index.php?/attachments/get/a1dfe3e0-ef07-4548-90bb-14bd1e39ad68)&nbsp; 
+4. The page ""Printed dress"" is opened. The photo with the dress is shown.![](index.php?/attachments/get/617c6388-6b6f-4bb1-aaa8-e79ea1c77dc6) 
+5. The number 2 is shown in the ""Quantity"" field on the page ""Printed dress""![](index.php?/attachments/get/977122ad-fa2d-405b-8f0e-8389754aee0a) 
+6. The list of the sizes in the pull-down menu at the ""Size"" field is shown.
+7. The size ""L"" is shown in the pull-down menu at the ""Size"" field.![](index.php?/attachments/get/e4e94e13-518f-4195-bd8b-496d56914b68) 
+8. The popup window is shown on the ""Printed dress"" page. ""Product successfully added to your shopping cart"" message is shown in the popup window. There are shown information about purchase: ""Orange, L, Quantity 2, Total $52.00, Total products $52.00, Total shipping  $2.00, Total $54.00"". ![](index.php?/attachments/get/613d7bcd-2fae-4122-a67c-6b87ee0691b1) 
+9. The "" Your shopping cart"" page is opened. ""SHOPPING-CART SUMMARY"" is shown with the chosen dresses.![](index.php?/attachments/get/d94af69a-f3e5-448f-abe5-dce6b2a57811)";"1. 
+2. 
+3. 
+4. 
+5. 
+6. 
+7. 
+8. 
+9.";"1. 
+2. 
+3. 
+4. 
+5. 
+6. 
+7. 
+8. 
+9.";"1. Click on the inset ""WOMEN"".
+2. Click on the category ""DRESSES"" at the menu ""WOMEN"".
+3. Click onto the ""Summer dresses"" inset
+4. Click onto the photo with ""Printed dress"" on the page ""Summer dresses"".![](index.php?/attachments/get/ea4b8fcc-4491-472d-bc40-aebff72ad288) 
+5. Click on the plus sign near the ""Quantity"" field on the page ""Printed dress"".
+6. Click on the pull-down menu at the ""Size"" field.![](index.php?/attachments/get/67b816fa-2eea-4665-873a-557c059ad159) 
+7. Choose the size ""L"" in the pull-down menu at the ""Size"" field
+8. Click on the ""Add to card"" button in the page ""Printed dress""
+9. Click on the ""Proceed to checkout"" button on the popup window on the ""Printed dress"" page.![](index.php?/attachments/get/69a28e8e-2510-4ba6-a233-c2cc7d1c5a75)";Master;S1;Test Case (Steps);Functional;Olha Klochak;7/28/2022 1:03 PM
